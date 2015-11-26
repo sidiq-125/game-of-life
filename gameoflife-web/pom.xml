@@ -164,19 +164,11 @@
             <artifactId>fest-assert</artifactId>
             <version>1.4</version>
         </dependency>
-<!-- comment by sidiq
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.6.1</version>
         </dependency>
--->
-	<exclusions>
-	  <exclusion>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-	  </exclusion>
-	</exclusions>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
